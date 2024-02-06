@@ -1,7 +1,4 @@
-
-Victor's section
-
-
+#Victor's section
 window=tk.Tk()
 window.title("BHU NACOS CGPA CALCULATOR ")
 window.geometry("850x550")

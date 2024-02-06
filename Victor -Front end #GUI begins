@@ -1,7 +1,7 @@
-import tkinter as tk
-from tkinter import Entry, Button, Label, StringVar
 
-#frontend - Victor
+Victor's section
+
+
 window=tk.Tk()
 window.title("BHU NACOS CGPA CALCULATOR ")
 window.geometry("850x550")

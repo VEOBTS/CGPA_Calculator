@@ -1,0 +1,20 @@
+
+Victor's section
+
+
+window=tk.Tk()
+window.title("BHU NACOS CGPA CALCULATOR ")
+window.geometry("850x550")
+
+welcome_msg=( "Welcome to the BHU-NACOS CGPA CALCULATOR!\n\n"
+
+    "For the 2023/2024 academic session, Bingham University 100 level Computer Science, Cyber Security, and Information Technology\n"
+    "students operate on a 16-credit units scheme. The CGPA is calculated based on the International standard grading system.\n"
+    "Each course code is followed by the full title and credit units (e.g., GST111 [Communication in English] 2 credit units).\n"
+    "Please input your grades for each course below:"
+)
+
+label =Label(window , text=welcome_msg , justify= "left")
+label.grid(column= 0 , row= 0 ,)
+
+window.mainloop()
